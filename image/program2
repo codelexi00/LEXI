@@ -1,10 +1,12 @@
 #include <iostream>
 using namespace std;
 
-int main(){
-    string name;
-    cout<<"Welcome to C++ language Programming";
-    cout<<"\nGood morning pal!, what is your name? ";
-    cin>>name;
-    cout<<"Hi "+ name +", Welcome to C++ programming Class.\n";
+int main() {
+    int number1, number2, result;
+    cout<<"Please enter your first number: ";
+    cin>>number1;
+    cout<<"Please enter your second number: ";
+    cin>>number2;
+    result = number1 + number2;
+    cout<<"Sum of the two numbers is "<<result;
 }
